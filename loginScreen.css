@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -50,4 +51,30 @@ a{
 }
 a:hover{
     text-decoration: underline;
+}
+
+@media screen and (max-width:900px) { 
+    .container{
+        flex-direction: column;
+    }
+    .imagem_warren{
+        width: 100vw;
+        height: 15vh;
+    }
+    .login{
+        margin-left: 0;
+        margin-top: 11rem;
+        transform: translate(0,0);
+        font-size: 3vw;
+    }
+    input{
+        width: 75vw;
+        height: 8vw;
+        font-size: 3vw;
+        padding-left: 2vw;
+    }
+    #submit{
+        font-size: 3vw; 
+        width: 77vw;
+    }
 }

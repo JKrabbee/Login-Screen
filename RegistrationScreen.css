@@ -56,3 +56,38 @@ a{
 a:hover{
     text-decoration: underline;
 }
+
+@media screen and (max-width:900px) { 
+    .container{
+        flex-direction: column;
+    }
+    .imagem_warren{
+        width: 100vw;
+        height: 15vh;
+    }
+    .login{
+        margin-left: 0;
+        margin-top: 11rem;
+        transform: translate(0,0);
+        font-size: 3vw;
+    }
+    .login form{
+        max-width: 80vw;
+    }
+    input{
+        height: 8vw;
+        width: 75vw;
+        font-size: 3vw;
+        padding-left: 2vw;
+    }
+    #name{
+        width: 36.3vw;
+    }
+    #sobrenome{
+        width: 36.3vw;
+    }
+    #submit{
+        font-size: 3vw;
+        width: 77vw;
+    }
+}
