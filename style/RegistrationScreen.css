@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Baloo 2", cursive;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.imagem_warren {
+  background-image: url(/assets/african-daisy-7230552.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  height: 100vh;
+}
+.login {
+  margin-left: 25%;
+  transform: translate(-50%, 0);
+  color: rgba(0, 0, 0, 0.623);
+  text-align: center;
+  font-size: 1vw;
+}
+.login form {
+  max-width: 31vw;
+}
+input {
+  width: 25vw;
+  height: 5vh;
+  border: none;
+  margin-top: 10px;
+  background-color: rgba(148, 147, 146, 0.158);
+  font-size: 1vw;
+  outline: none;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.26);
+  padding-left: 1vw;
+}
+#name {
+  width: 11.9vw;
+}
+#sobrenome {
+  width: 11.9vw;
+}
+#submit {
+  background-color: #fdad00;
+  color: white;
+  font-size: 1.5vw;
+  cursor: pointer;
+  width: 26vw;
+}
+a {
+  color: rgba(0, 0, 0, 0.623);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    flex-direction: column;
+  }
+  .imagem_warren {
+    width: 100vw;
+    height: 15vh;
+  }
+  .login {
+    margin-left: 0;
+    margin-top: 11rem;
+    transform: translate(0, 0);
+    font-size: 3vw;
+  }
+  .login form {
+    max-width: 80vw;
+  }
+  input {
+    height: 8vw;
+    width: 75vw;
+    font-size: 3vw;
+    padding-left: 2vw;
+  }
+  #name {
+    width: 36.3vw;
+  }
+  #sobrenome {
+    width: 36.3vw;
+  }
+  #submit {
+    font-size: 3vw;
+    width: 77vw;
+  }
+}
