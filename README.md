@@ -8,6 +8,8 @@ Here are the technologies used in this project.
  
 * HTML 5.2
 * CCS3
+* JavaScript
+* NodeJS
  
  
 ## Services Used
@@ -30,7 +32,7 @@ This is an exhibition project, just to promote the brand.
  
 ## Versioning
  
-1.0.0.0
+1.1.0.0
  
  
 ## Authors
